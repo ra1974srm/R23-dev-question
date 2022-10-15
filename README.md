@@ -1,0 +1,13 @@
+# R23-dev-question
+% hello world program
+-module(helloworld).
+-export([start/0]).
+
+start() -> 
+   X = {ok, [X]} = io:fread("input : ", "~d"),
+   print([1,4,1,5,9,2,6,5,3,5,8,9])-> [];
+print([H|T]) when x->
+    print(T);
+print([H|T]) ->
+    io:format("printing: ~p~n", [H]),
+    [H|even_print(T)].
